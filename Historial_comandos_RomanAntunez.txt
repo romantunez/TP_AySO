@@ -1,0 +1,233 @@
+cd 
+cd repogit/
+cd TP_AySO/
+pwd
+ls -l
+rm unarchivo
+git status
+git rm unarchivo 
+git status
+cd 
+cd repogit/
+cd TP_AySO/
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep <-i> HOME_URL /etc/os-release
+grep <-i> Home_url /etc/os-release
+grep home_url /etc/os-release
+grep HOME_URL /etc/os-release
+grep <-i>HOME_URL="https://www.ubuntu.com/"/etc/os-release
+man grep
+grep <-i> Home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add
+git add .
+git status
+git add .
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+cpuinfo
+cpu-info
+grep /proc
+git status
+cd repogit/
+cd TP_AySO/
+ls -l
+git status
+git push
+ls -l
+rm archivo
+git status
+git rm archivo
+git status
+git push
+git status
+ls -l
+git status
+cat etc/os-release
+cat /etc/os-release
+grep <-i> HOME_URL /etc/os-release
+whoami
+grep 
+tail -n1
+cd repogit/
+cd TP_AySO/
+ls -l
+git status
+git commit
+cd repogit/
+cd TP_AySO/
+git status
+git restore --staged <archivo>
+git restore --staged
+git restore --staged <archivo>
+git status
+git push
+git ssh
+vagrant ssh
+ssh
+vagrant halt
+cd
+vagrant halt
+apt install vagrant
+cd repogit/
+cd T
+cd TP_AySO/
+ls -l
+git status
+git add .
+git status
+git config --global user.email "antunezroman.st@gmail.com"
+git config --global user.name "romantunez"
+git status
+cd
+cpu-info
+cpuinfo
+cd repogit/
+cd TP_AySO/
+git status
+rm archivo
+git restore --staged archivo
+git status
+git rm archivo
+git status
+git push
+git status
+git restore --staged archivo
+git status
+git rm archivo
+git push
+git status
+git push
+git log
+ls -l
+git status
+git restore --staged archivo
+git status
+git restore archivo
+git status
+ls -l
+git rm archivo
+git status
+git rm
+git restore --staged archivo
+git status
+gir restore archivo
+git restore archivo
+git status
+ls -l
+whoami
+cpuinfo
+cpu-info
+apt install cpuinfo
+ls -l
+cat archivo
+cat datos_usuario.txt 
+cd 
+cd repogit/
+cd TP_AySO/
+grep
+grep --help
+grep "model name"
+cat cat $HOME/.ssh/*.pub
+cd repogit/
+cd T
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL/etc/os-release
+cat /etc/os-release
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release
+grep <-i> Home_url /etc/os-release 
+grep -i Home_ulr /etc/os-release
+cat /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+cd repogit/
+cd TP_AySO/
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+ls -l
+grep /proc
+cd repogit/
+cd TP_AySO/
+ls -l
+git rm archivo
+git status
+git push
+git status
+git restore archivo
+git restore --staged archivo
+git status
+git commit -a
+cd repogit/
+cd TP_AySO/
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+ls -l
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+clear
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git status
+grep -v "nologin" /etc/passwd | head -n10
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+ls -l
+git add .
+git commit -m “ADD: Listado de usuarios ordenada”
+git commit -m "add: Listado de usuarios ordenada"
+echo "El comando que se usa para realizar es tpcdump." > comando_dump_net
+ls
+echo "-w (archivo): Guarda la captura en un archivo para ser analizada mas tarde.” >> comando_dump_net
+cat comando_dump_net 
+
+clear
+cd repogit/
+cd TP_AySO/
+cat comando_dump_net 
+echo "-w (archivo): Guarda la captura en un archivo para ser analizada mas tarde." >> comando_dump_net
+cat comando_dump_net 
+git add .
+git commit -m “ADD: Comando para Capturar y analizar el tráfico de red ”
+git commit -m "add: Comando para Capturar y analizar el tráfico de red" 
+cat << EOF >> README.md  
+Alumno: Roman Antunez Estevez
+Division: 318
+Turno: Noche
+EOF
+
+cat README.md 
+git add .
+git commit -m "docs: informacion añadida del alumno, division y turno al README."
+$HOME/.bash_history
+history -a
+clear
+cd repogit/
+cd TP_AySO/
+ls -l
+git log --oneline
+git revert c6e10a5
+cd repogit/
+cd TP_AySO/
+ls -l
+git status
+git commit -m "Eliminar archivo"
+git push
+cp ../.bash_history Historial_comandos_RomanAntunez.txt
+ls -l
+history -a
